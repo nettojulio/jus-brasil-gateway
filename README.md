@@ -2,7 +2,7 @@
 
 ## RESUMO
 
-* Gateway para requisicoes aos sites de primeira e segunda instância.
+* Gateway para requisições aos sites de primeira e segunda instância.
   * TJAL
     * 1º grau - <https://www2.tjal.jus.br/cpopg/open.do>
     * 2º grau - <https://www2.tjal.jus.br/cposg5/open.do>
@@ -10,9 +10,9 @@
     * 1º grau - <https://esaj.tjce.jus.br/cpopg/open.do>
     * 2º grau - <https://esaj.tjce.jus.br/cposg5/open.do>
 
-## Execucão
+## Execução
 
-### Requirementos
+### Requerimentos
 
 * Golang >= 1.21.1
 * Docker Engine ou Docker Desktop
@@ -49,7 +49,7 @@ $ docker-compose down
 
 ### Rotas
 
-Por default, a aplicacao roda na porta `8080`
+Por default, a aplicação roda na porta `8080`
 
 * POST
 
