@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  jus-brasil-gateway:
+    container_name: jus-brasil-gateway
+    image: nettojulio/jus-brasil-gateway
+    ports:
+      - "8080:8080"
+    restart: on-failure
+    networks:
+      - app-private-network
+
+networks:
+  app-private-network:
+    driver: bridge
+    name: app-private-network
